@@ -10,4 +10,8 @@ class Home extends CI_Controller {
 		$this->load->view('index');
 		$this->load->view('template/footer');
 	}
+
+	public function outro(){
+		var_dump($this->input->post());
+	}
 }
