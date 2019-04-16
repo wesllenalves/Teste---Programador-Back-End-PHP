@@ -6,6 +6,6 @@
      3. Validação de CPF e E-mail;
      4. Upload de Foto;
 * Editar Cliente (update)
-    __Manter a mesma lógica do cadastro;__
+    > __Manter a mesma lógica do cadastro;__
 * Listar Clientes (read)
 * Excluir Cliente (delete)
