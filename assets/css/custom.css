@@ -154,3 +154,8 @@ table.table .avatar {
     margin-top: 10px;
     font-size: 13px;
 }
+
+.modal-dialog.modal-800 {
+        width: 1200px;
+        margin: 30px auto;
+    }

@@ -98,7 +98,7 @@
     
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-lg"  role="document">
         <div class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
@@ -108,16 +108,83 @@
         </div>
         <div class="modal-body">
             <div class="container-fluid">
-            <div class="row">
-            <div class="col-md-12">
-            <h2>Primeiro contato<h2>
-            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form action="" method="post">                            
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputNome">Nome</label>
+                                <input type="text" class="form-control" name="nome" id="nome">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputSobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" name="sobrenome" id="sobrenome">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputDataNasc">Data de Nascimento</label>
+                                <input type="date" class="form-control" name="datanasc" id="datanasc">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputCpf">CPF</label>
+                                <input type="text" class="form-control" name="cpf" id="cpf">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">E-mail</label>
+                                <input type="email" class="form-control" name="email" id="email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                 <label for="inputCelular">Celular</label>
+                                <input type="number" class="form-control" name="celular" id="celular">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputTelefone">Telefone</label>
+                                <input type="number" class="form-control" name="telefone" id="telefone">
+                            </div>
+                        </div>
+                        <h4>Endereço</h4>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">   
+                                <label for="inputCep">CEP</label>
+                                <input type="text" class="form-control" name="cep" id="cep">
+                            </div>
+                            <div class="form-group col-md-4">   
+                                <label for="inputLogradouro">Logradouro</label>
+                                <input type="text" class="form-control" name="logradouro" id="logradouro">
+                            </div>
+                            <div class="form-group col-md-4">   
+                                <label for="inputComplemento">Complemento</label>
+                                <input type="text" class="form-control" name="complemento" id="complemento">
+                            </div>
+                            <div class="form-group col-md-3">   
+                                <label for="inputNumero">Numero</label>
+                                <input type="text" class="form-control" name="numero" id="numero">
+                            </div>
+                            <div class="form-group col-md-3">   
+                                <label for="inputBairro">Bairro</label>
+                                <input type="text" class="form-control" name="bairro" id="bairro">
+                            </div>
+                            <div class="form-group col-md-3">   
+                                <label for="inputCidade">Cidade</label>
+                                <input type="text" class="form-control" name="cidade" id="cidade">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>   
-            </div>
+            
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+        </form>
         </div>
         </div>
     </div>
